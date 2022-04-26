@@ -1,0 +1,83 @@
+.cube_wrapper{
+     /* border: 1px solid yellowgreen; */
+     height: 700px;
+     /* width: 100%; */
+     background-color: yellowgreen;
+     display: grid;
+     place-items: center;
+     position: relative;
+}
+
+/* .cube1{
+     width: 200px;
+     height: 200px;
+     border: 3px solid blueviolet;
+}
+.cube2{
+     width: 200px;
+     height: 200px;
+     border: 3px solid rgb(73, 50, 95);
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-10%, -20%);
+     transition: 200ms ease-in;
+} */
+/* .cube2:hover{ */
+     /* border: 5px solid rgb(211, 71, 71); */
+     /* transform: scale(1.2);
+}
+
+
+.line1{
+     width: 100px;
+     border: 2px solid brown;
+     transform: rotate(37deg);
+     position: absolute;
+     top: 32%;
+     left: 41%;
+}
+.line2{
+     width: 100px;
+     border: 2px solid brown;
+     transform: rotate(37deg);
+     position: absolute;
+     top: 32%;
+     left: 57%;
+
+}
+.line3{
+     width: 100px;
+     border: 2px solid brown;
+     transform: rotate(37deg);
+     position: absolute;
+     top: 82%;
+     left: 41%;
+
+}
+.line4{
+     width: 100px;
+     border: 2px solid brown;
+     transform: rotate(37deg);
+     position: absolute;
+     top: 82%;
+     left: 57%;
+
+} */
+
+.cube_wrapper{
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+     gap: 3rem;
+}
+
+.cube_wrapper > div{
+     width: 200px;
+     height: 200px;
+     border: 1px solid black;
+     
+}
+.cube1{
+     width: 500px !important;
+     height: 200px;
+}
