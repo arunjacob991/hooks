@@ -1,5 +1,6 @@
 
 import Cube from './Cube';
+import Router from './Router';
 import UseCallback from './UseCallback';
 import UseContext from './UseContext';
 import UseContextMain from './UseContextMain';
@@ -28,6 +29,8 @@ function App() {
           {/* <UseRef /> */}
 
           <Cube />
+
+          {/* <Router /> */}
 
        </>
   );

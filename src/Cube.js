@@ -5,7 +5,7 @@ const Cube = () => {
   return (
     <div className="cube_wrapper">
          <div className="cube1">
-
+                    font size
          </div>
           <div className="cube2">
 
