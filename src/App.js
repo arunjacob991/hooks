@@ -1,6 +1,7 @@
 
 import Cube from './Cube';
 import Router from './Router';
+import Test from './Test';
 import UseCallback from './UseCallback';
 import UseContext from './UseContext';
 import UseContextMain from './UseContextMain';
@@ -23,14 +24,16 @@ function App() {
 
           {/* <UseReducer /> */}
           {/* <UseReducerMain /> */}
-          {/* <UseReducerMainTodo /> */}
+          <UseReducerMainTodo />
           {/* <UseCallback /> */}
           {/* <UseMemo /> */}
           {/* <UseRef /> */}
 
-          <Cube />
+          {/* <Cube /> */}
 
           {/* <Router /> */}
+
+          {/* <Test /> */}
 
        </>
   );
